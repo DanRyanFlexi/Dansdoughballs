@@ -1,8 +1,8 @@
-const VERSION = 'ddb-v3-foundation-1';
+const VERSION = 'ddb-v3-recipes-4';
 const APP_SHELL = [
   './', './index.html', './manifest.webmanifest', './dan-chef.png',
   './icons/icon-192.png', './icons/icon-512.png',
-  './icons/icon-maskable-512.png', './icons/apple-touch-icon.png'
+  './icons/icon-maskable-512.png', './icons/apple-touch-icon.png', './dough-rising.png'
 ];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(VERSION).then(cache => cache.addAll(APP_SHELL)));
