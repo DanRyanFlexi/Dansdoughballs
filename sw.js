@@ -1,4 +1,4 @@
-const VERSION = 'ddb-v3-recipes-4';
+const VERSION = 'ddb-v3-recipes-4.1';
 const APP_SHELL = [
   './', './index.html', './manifest.webmanifest', './dan-chef.png',
   './icons/icon-192.png', './icons/icon-512.png',
